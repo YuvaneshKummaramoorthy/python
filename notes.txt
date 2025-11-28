@@ -14,3 +14,10 @@ step 4: Install any package
 
 step 5: Deactivate the environment
 >> deactivate
+
+step 6: Install all the packages inside requirements.txt
+>> pip3 install -r requirements.txt
+
+step 7: To list all the installed libraries:
+>> pip3 freeze
+>> pip3 freeze > requirements.txt
