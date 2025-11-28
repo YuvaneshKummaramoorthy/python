@@ -1,0 +1,16 @@
+How to create a new environment in python on the current working directory?
+
+step 1: Install venv using sudo apt
+>> sudo apt install python3-venv -y
+
+step 2: Now create a new virtual environment in the folder:
+>> python3 -m venv environment_name
+
+step 3: You need to activate the environment
+>> source environment_name/bin/activate
+
+step 4: Install any package
+>> pip3 install package_name
+
+step 5: Deactivate the environment
+>> deactivate
